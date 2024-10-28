@@ -1,0 +1,28 @@
+Task: Build a Simple Inventory Management Program
+Create a JavaScript program to manage a simple inventory of products. The program should handle the following operations:
+Define Product Objects:
+Use an object constructor function or a factory function to define a Product. Each product should have:
+Properties: id, name, category, price, quantity
+Method: A method displayDetails that logs the product details in a formatted string.
+Manage the Inventory:
+Initialize an array of sample Product objects.
+Write functions for the following operations:
+Add Product: Accept product details as arguments, create a new Product object, and add it to the inventory. Ensure IDs are unique using a simple counter or random generator.
+Remove Product: Remove a product from the inventory by its id.
+Update Quantity: Update the quantity of a product by its id, adding or removing stock as needed.
+Calculate Inventory Value:
+Write a function to calculate the total value of the inventory (quantity * price for each product).
+Use array methods and arithmetic operators to sum up the total.
+Search and Filter Products:
+Implement a search function that allows users to search for products by name or category.
+Use optional chaining to safely access product details in case properties are missing.
+Additional Requirements:
+Use default function parameters for optional properties in the Product constructor (like quantity defaulting to 1 if not specified).
+Use a recursive function to calculate the factorial of the total number of products (e.g., if there are 3 products, calculate 3!).
+Handle errors gracefully, such as displaying messages when invalid inputs are provided. [assume invalid inputs yourself]
+
+
+
+
+
+
